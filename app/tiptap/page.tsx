@@ -1,6 +1,7 @@
 import Tiptap from '@/components/1-basic-tiptap'
 import { CodeBlockExample } from '@/components/2-code-block-lowlight'
 import { DetailsExample } from '@/components/3-details'
+import { PlaceHolder } from '@/components/4-place-holder'
 
 export default function Page() {
   return (
@@ -14,9 +15,15 @@ export default function Page() {
         <p className="text-5xl">Code Block </p>
         <CodeBlockExample />
       </div>
+
       <div className="border-2 border-red-600 flex flex-row gap-40">
-        <p className="text-5xl">Details Example </p>
+        <p className="text-5xl">Details </p>
         <DetailsExample />
+      </div>
+
+      <div className="border-2 border-red-600 flex flex-row gap-40">
+        <p className="text-5xl">PlaceHolder </p>
+        <PlaceHolder />
       </div>
     </div>
   )
