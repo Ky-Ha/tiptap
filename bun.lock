@@ -5,6 +5,7 @@
       "name": "public-titap",
       "dependencies": {
         "@tiptap/extension-code-block-lowlight": "^3.3.0",
+        "@tiptap/extension-details": "^3.3.0",
         "@tiptap/pm": "^3.3.0",
         "@tiptap/react": "^3.3.0",
         "@tiptap/starter-kit": "^3.3.0",
@@ -235,6 +236,8 @@
 
     "@tiptap/extension-code-block-lowlight": ["@tiptap/extension-code-block-lowlight@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0", "@tiptap/extension-code-block": "^3.3.0", "@tiptap/pm": "^3.3.0", "highlight.js": "^11", "lowlight": "^2 || ^3" } }, "sha512-uwMdv9e/JJi92CMr52qERbW4pAGCVkw7qDuw5pEaNBqiyT/0OIm8kE9fgL0tq2CXXQ/27IALJiFzPic+HNih2w=="],
 
+    "@tiptap/extension-details": ["@tiptap/extension-details@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0", "@tiptap/extension-text-style": "^3.3.0", "@tiptap/pm": "^3.3.0" } }, "sha512-zbIcrm/9H/s+Y7FJfC7glc8DYFvAIKS4DElJY5DABt0BMpr5fxYYY8imkmzW2+5pSxqSaPtrBgOCT5PaCwB7BQ=="],
+
     "@tiptap/extension-document": ["@tiptap/extension-document@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0" } }, "sha512-J7w2pva06OSBoEUxIyL/faXx+P97H3L0Q8tCsH5umXgUVew2xLYq6nEDqtHOFIXRp/bvrQd677UlQorBaRrWeQ=="],
 
     "@tiptap/extension-dropcursor": ["@tiptap/extension-dropcursor@3.3.0", "", { "peerDependencies": { "@tiptap/extensions": "^3.3.0" } }, "sha512-aPgEmW6A7K9lq7Mfw8h/ATCJKsWJ5KHimnNoQGwu1V7onWyn3Set/tSgfqKQVGoyvk5xwgRqAg41pYYBIrxF7Q=="],
@@ -266,6 +269,8 @@
     "@tiptap/extension-strike": ["@tiptap/extension-strike@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0" } }, "sha512-qTSywaQYtlVo3B2NaLSKgmh5/O5m4XspSME8mekinGH6cTv3d+H3p1SUhQoc1Ue+65CI01+GsLU4v/Gi4B2xNw=="],
 
     "@tiptap/extension-text": ["@tiptap/extension-text@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0" } }, "sha512-yhNpKfRlZsZFtjBQyiWyjg9WPUTzjgxR/ZID1UEY3SGo9aPUuvAvEnn2v2tSopHyf+qBMyN5IfSjrauauGkWMA=="],
+
+    "@tiptap/extension-text-style": ["@tiptap/extension-text-style@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0" } }, "sha512-aYl2JF7zcIGuuFQNWRxukSxPGFsBUn+yCogTqVDzYJwxuZR+VceiWIEI979WvzEeBq1GjYNrENEjwz4U/zxaiw=="],
 
     "@tiptap/extension-underline": ["@tiptap/extension-underline@3.3.0", "", { "peerDependencies": { "@tiptap/core": "^3.3.0" } }, "sha512-ipiXsXBxmIQGqcMOaXsnP7iQ6/VO/UIxP3X3rS4ToHgVVF5RIFSs732fv5p3R88TdlVz4hqM9S39W+JesFB2Fw=="],
 
